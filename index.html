@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Collection BD</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h1>Collection BD :</h1>
+</br>
+<p id="ajouter">
+    <label>Titre:   <input id="ajout-titre" type="text" required></label>
+    <label>Auteur:   <input id="ajout-auteur" type="text" required></label>
+    <label>Editeur:   <input id="ajout-editeur" type="text" required></label>
+    <label>Annee: <input id="ajout-annee" type="text" required></label>
+    <label>Prix: <input id="ajout-prix" type="text" required></label>
+    <input id="ajout-bouton" type="button" value="ajouter">
+</p>
+
+<table id="livres">
+    <!--Les éléments vont se caler ici !-->
+</table>
+
+<p id="res">
+    Nombre de BD  : <span id="nbj"  ></span><br/>
+    </br>
+    Total prix collection  : <span id="total"  ></span> Euros.<br/>
+    </br>
+    Moyenne prix BD  : <span id="moy"  ></span> Euros.<br/>
+    </br>
+    BD la plus ancienne  : année : <span id="old"  ></span><br/>
+    </br>
+    BD la plus chère  : <span id="gold"  ></span> Euros.<br/>
+</p>
+
+</body>
+</html>
