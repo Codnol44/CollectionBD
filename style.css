@@ -1,0 +1,53 @@
+body
+{
+    font-family: Impact;
+    font-size: large;
+    background-color: olive;
+}
+
+#livres
+{
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    border-radius: 2px;
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+h1 {
+    margin-left: 400px;
+}
+
+#livres td
+{
+    padding: 3px 10px;
+}
+
+#livres tr
+{
+    background-color: aqua;
+}
+
+#livres tr:nth-child(2n)
+{
+    background-color: darksalmon;
+}
+
+#ajouter
+{
+    margin-left: 400px;
+}
+
+#ajouter input[type='text']
+{
+    width: 80px;
+    margin-left: 15px;
+}
+
+#ajout-titre
+{
+    margin-right: 10px;
+}
+
+#res, #livres {
+    margin-left: 400px;
+}
